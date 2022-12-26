@@ -1,0 +1,12 @@
+site_name: 厦门理工机器人实验室
+nav: 
+  - 主页: index.md
+  - 电控:
+    - C语言 : control/C.md
+    - 单片机: control/MCU.md    
+    - 电机控制: 
+      - Can通信: control/motor_control/can.md
+      - PID: control/motor_control/pid.md
+  - 硬件: hardware
+  - 机械: machine
+  - 视觉: vision
