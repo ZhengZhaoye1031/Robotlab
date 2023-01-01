@@ -123,4 +123,5 @@
 
    与位置环相似，输入目标位置值，外环（位置环）计算出达到目标值所需的速度，作为内环（速度环）的目标值输入，计算出达到目标速度所需的加速度，也就是电流值，最后输出电流实现控制电机。
 
-**<img src="https://raw.githubusercontent.com/ZhengZhaoye1031/Robotlab/master/docs/img/cascade.png"/>**
+<img src="https://raw.githubusercontent.com/ZhengZhaoye1031/Robotlab/master/docs/img/cascade.png"/>
+
