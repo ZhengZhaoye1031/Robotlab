@@ -8,6 +8,7 @@ nav:
     - 电机控制: 
       - Can通信: control/motor_control/can.md
       - PID: control/motor_control/pid.md
+      - CascadePID: control/motor_control/CascadeControl.md
   - 硬件: hardware
   - 机械: machine
   - 视觉: vision
