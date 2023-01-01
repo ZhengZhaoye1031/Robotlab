@@ -110,7 +110,7 @@
 	  //	else if(out_put<-max_output)out_put=-max_output;//限制输出，加上后改max_output可调节电机回弹的力气
 	  return out_put;                         //输出
 	  }
-```    
+```
       max_output为外环输出的最大绝对值，等于内环的最大目标值，可以理解为电机运动的最大速度值
 
 4.硬件准备好后，将代码烧录进MCU，之后进入debug模式进行PID的调参，完成串级的控制
@@ -123,4 +123,6 @@
 
    与位置环相似，输入目标位置值，外环（位置环）计算出达到目标值所需的速度，作为内环（速度环）的目标值输入，计算出达到目标速度所需的加速度，也就是电流值，最后输出电流实现控制电机。
 
-   ![ccctf](https://gitee.com/Hfound01/picture/raw/master/pictuer_/202212311803540.png)
+<img src="https://gitee.com/ZZY1031/image_-bed/raw/master/blog/202301011458741.png" />
+
+![202212311803540](https://gitee.com/ZZY1031/image_-bed/raw/master/blog/202301011458741.png)
