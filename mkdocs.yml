@@ -1,11 +1,11 @@
 theme: readthedocs
 site_name: 厦门理工机器人实验室
 nav: 
-  #- 主页: index.md
-  - 电控:
-    - C语言: control/C/Data.md  
-    - 电机控制: 
-      - Can通信: control/motor_control/can.md
-      - PID: control/motor_control/pid.md
-      - CascadePID: control/motor_control/CascadeControl.md
-    - 单片机: control/单片机.md  
+  - 主页: index.md
+  - C语言: control/C/Data.md  
+  - 单片机: control/单片机.md  
+  - 电机控制: 
+    - Can通信: control/motor_control/can.md
+    - PID: control/motor_control/pid.md
+    - CascadePID: control/motor_control/CascadeControl.md
+
